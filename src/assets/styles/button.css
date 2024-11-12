@@ -1,0 +1,78 @@
+
+
+.about-btn {
+      top: 65px;
+      
+      padding: 10px 20px;
+      font-size: 15px;
+      color: black;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      z-index: 3;
+      background: linear-gradient(45deg, #E6E6FA, #C8A2D0);
+  }
+  
+  .about-btn:hover {
+      background: linear-gradient(45deg, #6c6ce2, #333645);
+      color: white;
+      transform: scale(1.1);
+  
+  }
+  
+  .about-btn:focus {
+      outline: none;
+  }
+
+
+  .home-btn {
+
+      top: 65px;
+      
+      padding: 10px 20px;
+      font-size: 15px;
+      color: black;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      z-index: 1001;
+      background: linear-gradient(45deg, #E6E6FA, #C8A2D0);
+  }
+  
+  .home-btn:hover {
+      background: linear-gradient(45deg, #6c6ce2, #333645);
+      color: white;
+      transform: scale(1.1);
+  
+  }
+  
+  .home-btn:focus {
+      outline: none;
+  }
+
+  .map-btn {
+    
+    top: 65px;
+    
+    padding: 10px 20px;
+    font-size: 15px;
+    color: black;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    z-index: 3;
+    background: linear-gradient(45deg, #E6E6FA, #C8A2D0);
+    transform: scale(1.1);
+}
+
+.map-btn:hover {
+    background: linear-gradient(45deg, #6c6ce2, #333645);
+    color: white;
+
+}
+
+.map-btn:focus {
+    outline: none;
+}
+
+

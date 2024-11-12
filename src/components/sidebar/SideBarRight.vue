@@ -75,23 +75,4 @@ export default {
 
 <style scoped>
 @import "/src/components/sidebar/SidebarStyles/Right.css";
-.expand-enter-active,
-.expand-leave-active {
-  transition: all 0.3s ease;
-}
-.expand-enter,
-.expand-leave-to {
-  opacity: 0;
-  transform: scaleY(0);
-}
-
-.search-box {
-  margin-top: 10px;
-  transition: all 0.3s ease;
-}
-.search-box input {
-  width: 100%;
-  padding: 8px;
-  font-size: 1rem;
-}
 </style>

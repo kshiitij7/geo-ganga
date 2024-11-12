@@ -1,0 +1,39 @@
+header {
+  margin-top: 0px;
+    position: relative; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-bottom: 0.1px;
+    background: linear-gradient(90deg, #022a38, #1f1d1d);
+    color: #fff;
+    z-index: 100000;
+  }
+  .header-text {
+    color : wheat;
+    font-size: 1.2rem; 
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    flex-grow: 1; 
+  }
+  
+  
+  
+  
+  .logo-right {
+    position: absolute; 
+    top: 10px; 
+    right: 10px; 
+    width: 50px;
+    vertical-align: middle;
+  }
+  
+  .logo-left {
+    left :10px;
+    width: 80px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    
+  }
